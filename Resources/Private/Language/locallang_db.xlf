@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2017-03-30T12:58:00Z" product-name="cart_extended_product">
+        <header/>
+        <body>
+
+            <trans-unit id="tx_cart_domain_model_product_product.manufacturer">
+                <source>Manufacturer</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

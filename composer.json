@@ -1,0 +1,64 @@
+{
+    "name": "extcode/cart-extended-product",
+    "type": "typo3-cms-extension",
+    "description": "Shopping Cart(s) for TYPO3 - Extended Product Example",
+    "homepage": "https://cart.extco.de",
+    "license": [
+        "GPL-2.0+"
+    ],
+    "keywords": [
+        "TYPO3 CMS",
+        "Shopping Cart",
+        "cart",
+        "extended product"
+    ],
+    "authors": [
+        {
+            "name": "Daniel Lorenz",
+            "email": "ext.cart.extended.product@extco.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/extcode/cart_extended_product/issues"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "typo3/cms": "^6.2 || ^7.6 || ^8.6",
+        "extcode/cart": ">=3.0.1"
+    },
+    "require-dev": {
+        "namelesscoder/typo3-repository-client": "^1.2.0",
+        "nimut/testing-framework": "^1.0",
+        "mikey179/vfsStream": "~1.6.0",
+        "phpunit/phpunit": "~4.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Extcode\\CartExtendedProduct\\": "Classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Extcode\\CartExtendedProduct\\Tests\\": "Tests/",
+            "TYPO3\\CMS\\Core\\Tests\\": ".Build/vendor/typo3/cms/typo3/sysext/core/Tests/",
+            "TYPO3\\CMS\\Fluid\\Tests\\": ".Build/vendor/typo3/cms/typo3/sysext/fluid/Tests/"
+        }
+    },
+    "replace": {
+        "cart_coupon_product": "self.version"
+    },
+    "config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/Web",
+            "Package": {
+                "partOfMinimalUsableSystem": true
+            }
+        }
+    }
+}

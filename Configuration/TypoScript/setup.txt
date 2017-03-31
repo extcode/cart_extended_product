@@ -1,0 +1,15 @@
+config.tx_extbase {
+    persistence {
+        classes {
+            Extcode\CartExtendedProduct\Domain\Model\Product\Product {
+                mapping {
+                    tableName = tx_cart_domain_model_product_product
+                    recordType =
+                }
+            }
+        }
+    }
+    objects {
+        Extcode\Cart\Domain\Model\Product\Product.className   = Extcode\CartExtendedProduct\Domain\Model\Product\Product
+    }
+}
