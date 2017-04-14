@@ -15,12 +15,9 @@ namespace Extcode\CartExtendedProduct\Tests\Domain\Model\Product;
  * The TYPO3 project - inspiring people to share!
  */
 
-use TYPO3\CMS\Core\Utility\GeneralUtility;
-
 /**
  * Product Test
  *
- * @package cart_extended Product
  * @author Daniel Lorenz <ext.cart@extco.de>
  */
 class ProductTest extends \TYPO3\CMS\Core\Tests\UnitTestCase

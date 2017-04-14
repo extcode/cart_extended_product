@@ -1,3 +1,9 @@
+0.3.0
+    2017-04-14
+    Daniel Lorenz <daniel.lorenz@extco.de>
+
+    * [TASK] #2: add cs-fixer to gitlab-ci
+
 0.2.0
     2017-04-14
     Daniel Lorenz <daniel.lorenz@extco.de>

@@ -1,6 +1,7 @@
+.Build
+composer.lock
+
+.php_cs.cache
+
 .DS_Store
 .idea
-
-.Build
-
-composer.lock

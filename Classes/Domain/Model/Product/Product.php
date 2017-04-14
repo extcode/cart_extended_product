@@ -18,7 +18,6 @@ namespace Extcode\CartExtendedProduct\Domain\Model\Product;
 /**
  * Product
  *
- * @package cart_extended_product
  * @author Daniel Lorenz <ext.cart@extco.de>
  */
 class Product extends \Extcode\Cart\Domain\Model\Product\Product
@@ -44,8 +43,6 @@ class Product extends \Extcode\Cart\Domain\Model\Product\Product
      * Sets the Manufacturer
      *
      * @param string $manufacturer
-     *
-     * @return void
      */
     public function setManufacturer($manufacturer)
     {
