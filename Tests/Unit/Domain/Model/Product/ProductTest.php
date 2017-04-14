@@ -21,7 +21,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
  * Product Test
  *
  * @package cart_extended Product
- * @author Daniel Lorenz <ext.cart.extended.product@extco.de>
+ * @author Daniel Lorenz <ext.cart@extco.de>
  */
 class ProductTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
 {

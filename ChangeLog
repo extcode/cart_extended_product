@@ -1,3 +1,9 @@
+0.2.0
+    2017-04-14
+    Daniel Lorenz <daniel.lorenz@extco.de>
+
+    * [TASK] #3: add gitlab-ci configuration
+
 0.1.0
     2017-03-31
     Daniel Lorenz <daniel.lorenz@extco.de>

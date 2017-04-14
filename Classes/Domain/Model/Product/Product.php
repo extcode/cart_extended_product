@@ -19,7 +19,7 @@ namespace Extcode\CartExtendedProduct\Domain\Model\Product;
  * Product
  *
  * @package cart_extended_product
- * @author Daniel Lorenz <ext.cart.extended.product@extco.de>
+ * @author Daniel Lorenz <ext.cart@extco.de>
  */
 class Product extends \Extcode\Cart\Domain\Model\Product\Product
 {
